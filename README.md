@@ -30,7 +30,7 @@
 
 Este site está hospedado no GitHub Pages e pode ser acessado através do seguinte link:
 
-**[Ver Site ao Vivo / View Live Site](https://[SEU-USERNAME].github.io/moreirabarber/)**
+**[Ver Site ao Vivo / View Live Site](https://carlos-raposo.github.io/moreirabarber/)**
 
 ## Estrutura do Projeto / Project Structure
 
@@ -49,7 +49,7 @@ moreirabarber/
 
 1. Clone o repositório / Clone the repository:
 ```bash
-git clone https://github.com/[SEU-USERNAME]/moreirabarber.git
+git clone https://github.com/carlos-raposo/moreirabarber.git
 ```
 
 2. Navegue até a pasta do projeto / Navigate to the project folder:
