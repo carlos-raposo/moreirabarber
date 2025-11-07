@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	  <meta name="description" content="Moreira Barber's Website">
+	  <meta name="keywords" content="Barber, Barber Shop, Barber in Lisbon">
+	  <meta name="author" content="Carlos Raposo">
+	  <title>MOREIRA</title>
+	  <!-- Font Awesome -->
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	  <!-- Bootstrap core CSS -->
+	  <link href="css/bootstrap.min.css" rel="stylesheet">
+	  <!-- Material Design Bootstrap -->
+	  <link href="css/mdb.min.css" rel="stylesheet">
+	  <!-- Your custom styles (optional) -->
+	  <link href="css/style.min.css" rel="stylesheet">
+	  
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,500&family=Roboto:wght@900&display=swap" rel="stylesheet">	  <style type="text/css">
+    html,
+    body,
+    header,
+     { height: 100%;}
+	
+	html {scroll-behavior: smooth;}
+	 
+	h2 {color:#e00000;  font-family: 'Raleway', sans-serif; font-weight:900; font-size:2.5rem; letter-spacing:0.7rem}
+	p, h3 {font-family: 'lato', sans-serif;}
+	hr {color:transparent;
+		border-top:none}
+		
+	.logo_hero {width:80%; margin:0 auto}	
+		
+	.hr-light {border-top:none}	
+	
+	.btn {background-color: #e00000; border: 5px solid rgba(248, 220, 78, 0.95); border-radius: 5px;}
+	.btn:hover {color: rgba(248, 220, 78); border: 5px solid rgba(248, 220, 78, 1);}
+	picture.place h2 {text-align:center}
+	
+	.card {box-shadow: none;
+	}
+	
+	ul.navbar-nav.mr-auto {
+    margin-left: auto;
+	}
+	.navbar .dropdown-menu a {
+    color: #fff;}
+
+	
+	.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #e00000
+}
+
+	.dropdown-menu {border: 1px solid rgba(255,17,17,.15);}
+	
+	.fab {font-size:1.5rem; color:rgba(248, 220, 78, 0.95);}
+	
+	.map-container{
+	  overflow:hidden;
+	  padding-bottom:56.25%;
+	  position:relative;
+	  height:0;
+	}
+	.map-container iframe{
+	  left:0;
+	  top:0;
+	  height:100%;
+	  width:100%;
+	  position:absolute;
+	}
+	
+	.page-footer, .top-nav-collapse {
+    background-color: #1f2024;
+	}
+	
+	footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255,255,255,.6);
+    background-color: rgba(0,0,0,.1);
+	}
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+	
+	@media (min-width: 1200px) {
+	.mb-5, .my-5 {
+    margin-bottom: 2.5rem!important;
+	margin-top: 4.5rem!important;
+	
+	}	
+	}
+	
+	.viewfooter {
+	background-image: url("img/barber2.svg");
+	background-repeat: repeat;
+	background-size: 100% ;			
+	}
+	
+	/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* ----------------------MEDIA QUERIES----------------------------
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+
+/* --------------------------------------------------------- */
+/* ---------Smartphones (portrait and landscape) ----------- */
+/* --------------------------------------------------------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px){
+	#serv, #clientes, #sobre {scroll-margin-top:300px}
+	.view {
+		height: 660px;
+		background-image: url("img/hero_xs.jpg");	
+		}
+	.card .card-body .card-text {font-size:1.2rem}
+	picture.place h3 {font-size:1.8rem;
+		text-align:center;
+		padding-top:0.6rem;
+		padding-bottom:0.6rem}
+
+}
+
+
+/* ------------------------------------------------ */
+/* -------------Smartphones (landscape) ----------- */
+/* ------------------------------------------------ */
+@media only screen
+and (min-width : 321px) {
+	#serv, #clientes, #sobre {scroll-margin-top:300px}
+	.view {
+		height: 660px;
+		background-image: url("img/hero_medium.jpg") 
+			}
+	p {font-size:1.4rem}
+	.card .card-body .card-text {font-size:1.2rem}
+	picture.place h3 {font-size:1.6rem;
+			text-align:center;
+			padding-top:0.6rem;
+			padding-bottom:0.6rem}
+	.footer-copyright p{font-size:1.4rem; font-weight:100; font-
+	}
+	}
+
+
+/* ---------------------------------- */
+/* Smartphones (portrait) ----------- */
+/* ---------------------------------- */
+
+@media only screen
+and (max-width : 320px){
+	#serv, #clientes, #sobre {scroll-margin-top:300px}
+	.view {
+		height: 660px;
+		background-image: url("img/hero_xs.jpg");
+		}
+	p {font-size:1.4rem}
+	.card .card-body .card-text {font-size:1.2rem}	
+	}
+
+
+/* ------------------------------------------------- */
+/* ------------- Samsung Galaxy S5 ----landscape---- */
+/* ------------------------------------------------- */
+@media only screen and (min-device-width: 360px) 
+and (max-device-height: 640px) and (orientation : landscape) 
+and (-webkit-device-pixel-ratio: 3)	{
+.view {
+	background-image: url("img/hero_medium.jpg");
+}
+}
+
+/* --------------------------------------------------- */
+/* -------------- Samsung Galaxy S5 -----portrait--- - */
+/* --------------------------------------------------- */
+@media only screen and (min-device-width: 360px) 
+and (max-device-height: 640px) and (orientation : portrait) 
+and (-webkit-device-pixel-ratio: 3){
+}	
+
+/* ---------------------------------------------- */ 
+/* ------ iPads (portrait and landscape) -------- */
+/* ---------------------------------------------- */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px){
+.view {
+    height: 900px;
+	background-image: url("img/hero_medium.jpg")
+}
+}
+
+/* ------------------------------------------- */ 
+/* ------------iPads (landscape) ------------- */
+/* ------------------------------------------- */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape){
+.view {
+	background-image: url("img/hero_1.jpg");
+}
+
+}
+
+/* ------------------------------------------- */ 
+/* ----------- iPads (portrait) -------------- */
+/* ------------------------------------------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait){
+.view {
+	background-image: url("img/hero_medium.jpg");
+}	
+}
+
+/* ------------------------------------------- */ 
+/* ---------- Desktops and laptops ----------- */
+/* ------------------------------------------- */
+@media only screen
+and (min-width : 1224px){
+.view {
+    height: 1000px;
+	background-image: url("img/hero_1.jpg");
+}
+
+.navbar-brand {display:none}
+ul.navbar-nav.mr-auto {
+    margin-left: 0; 
+}
+
+#serv, #clientes, #sobre {scroll-margin-top:60px}
+
+}
+
+
+
+
+
+/* ------------------------------------------- */
+/* -------------Large screens ---------------- */
+/* ------------------------------------------- */
+@media only screen
+and (min-width : 1824px){
+		
+}
+		  
+  
+  .portfolio-banner {
+    background: linear-gradient(135deg, rgba(224, 0, 0, 0.95), rgba(248, 220, 78, 0.95));
+    color: #fff;
+    text-align: center;
+    padding: 8px 10px;
+    font-size: 0.85rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .portfolio-banner a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .portfolio-banner a:hover {
+    color: #1f2024;
+  }
+  
+  body {
+    padding-top: 35px;
+  }
+  
+  </style>
+</head>
+
+<body>
+
+  <!-- Portfolio Banner -->
+  <div class="portfolio-banner">
+    <i class="fas fa-info-circle"></i> This website is maintained as part of the web development portfolio of <a href="https://carlosraposo.eu/" target="_blank" rel="noopener">Carlos Raposo</a>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" style="top: 35px;">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" target="_blank">
+        <img src="img/logo_white.svg" style="width:190px">
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+			
+			<li class="nav-item active">
+				<a class="nav-link" href="#">Home
+				<span class="sr-only">(current)</span>
+				</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.en.html#serv">Services</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.en.html#clientes">Costumers</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="index.en.html#sobre" >About</a>
+			</li>
+			
+			<!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">EN</a>
+            <div class="dropdown-menu dropdown-primary" style="background-color: #f11; min-width:0; padding-bottom: 0;" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="index.html" style="font-size: 1rem; text-align:left; padding-bottom: 0; padding-top: 0; padding-left:0.5rem">PT</a>
+            </div>
+          </li>
+			
+			
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/Moreira-Barber-2805971619629037" class="nav-link" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/moreira__barber/" class="nav-link" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!-- Full Page Intro -->
+  <div class="view full-page-intro" style="background-repeat: no-repeat; background-size: cover;">
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="container">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-12 mb-12 white-text text-center text-md-left">
+
+            <!--<h1 class="display-4 font-weight-bold">MOREIRA BARBER</h1> -->
+			<img src="img/logo_white.svg" class="logo_hero">
+            <hr class="hr-light">
+
+            <p>
+              <strong>How about shaving or getting a new haircut in one of the most beautiful streets in the world?</strong>
+            </p>
+
+            <p class="mb-4 d-none d-md-block">
+              <strong> In the center of Lisbon, on the well-known Rua do Elevador da Bica with the Tagus River in the eye.</strong>
+            </p>
+
+            <a href="#" onclick="event.preventDefault(); alert('This is a portfolio project. Booking functionality is disabled.'); return false;" class="btn btn-lg">BOOK NOW
+              <i class="fas fa-phone ml-2" aria-hidden="true"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+          
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+  <!--Main layout-->
+  <main>
+		
+    <div class="container">
+
+     
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+	  
+	  
+	  
+	   <!--Section: More-->
+      <section id="serv">
+
+        <h2 class="mt-4 mb-2 text-center">SERVICES</h2>
+		<div class="d-flex justify-content-center">
+		<img src="img/scissor.png" class="img-fluid my-4">
+		</div>
+		<p style="margin: 0 auto; text-align:center; max-width:600px">We are a space dedicated to the modern man and we seek to respond to the demands of each client.</p>
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            
+              <picture class="place">
+				  <img src="img/img_1.jpg" alt="" class="img-fluid">
+				  <h3>Beard</h3>
+			  </picture>  
+                      
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+           
+              <picture class="place">
+				  <img src="img/img_2.jpg" alt="" class="img-fluid">
+				  <h3>Haircut</h3>
+			  </picture>
+           
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+           
+              <picture class="place">
+				  <img src="img/mascara.jpg" alt="" class="img-fluid">
+				  <h3>Black mask</h3>
+			  </picture>
+            
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+           
+              <picture class="place">
+				  <img src="img/img_3.jpg" alt="" class="img-fluid">
+				  <h3>Kids</h3>
+			  </picture>
+            
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+
+        
+
+      </section >
+      <!--Section: More-->
+	  	  
+	  <hr class="my-5">
+	  
+	  
+	   <!--Section: Clientes-->
+      <section id="clientes">
+
+        <h2 class="my-5 text-center">COSTUMERS</h2>
+		<div class="d-flex justify-content-center">
+		<img src="img/pincel.png" class="img-fluid">
+		</div>
+        <!--First row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-md-4">
+            <!-- Card -->
+			<div class="card">
+
+			  <!-- Card image -->
+			  <img class="card-img-top" src="img/person_1.jpg" alt="Card image cap">
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+				<!-- Title -->
+				<h4 class="card-title"><a>João Sousa</a></h4>
+				<!-- Text -->
+				<p class="card-text">"Barber shop with a unique style, full of friendliness, professionalism and authentic and modern cuts!"</p>
+				
+			  </div>
+
+			</div>
+			<!-- Card -->         
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+           
+                          <!-- Card -->
+			<div class="card">
+
+			  <!-- Card image -->
+			  <img class="card-img-top" src="img/person_2.jpg" alt="Card image cap">
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+				<!-- Title -->
+				<h4 class="card-title"><a>Luís Ramos</a></h4>
+				<!-- Text -->
+				<p class="card-text">"Located in one of the most beautiful streets in Portugal, great haircuts and excellent service."</p>
+				
+			  </div>
+
+			</div>
+			<!-- Card --> 
+           
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-4">
+           
+                          <!-- Card -->
+			<div class="card">
+
+			  <!-- Card image -->
+			  <img class="card-img-top" src="img/person_3.jpg" alt="Card image cap">
+
+			  <!-- Card content -->
+			  <div class="card-body">
+
+				<!-- Title -->
+				<h4 class="card-title"><a>André Barreto</a></h4>
+				<!-- Text -->
+				<p class="card-text">"Once beard and hair done by Fábio Moreira, beard and hair done forever with Fábio Moreira!"</p>
+				
+			  </div>
+
+			</div>
+			<!-- Card --> 
+            
+          </div>
+          <!--/Grid column-->
+
+     
+
+        </div>
+        <!--/First row-->
+
+        
+
+      </section>
+      <!--Section: Clientes-->
+	  
+      <hr class="mb-5">     
+
+    </div>
+  </main>
+  <!--Main layout-->
+	<div class="d-flex justify-content-center">
+		<img src="img/navalha.png" class="img-fluid my-4">
+		</div>
+  <!--Footer-->
+  <footer class="viewfooter page-footer font-small mt-4 pt-5 wow fadeIn" id="sobre">
+	
+	<div class="container">
+     <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-lg-3">           
+			<picture>
+		    <source srcset="img/moreira_med.webp">
+			<source srcset="img/moreira_large.webp">
+			<source srcset="img/moreira_med.jpg">
+            <img src="img/moreira_large.jpg" alt="Image" class="img-fluid ">
+           </picture>
+		   <h2 class="footer-heading mb-3" style="margin-top:15px">Fábio Moreira</h2>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-4 ml-auto">
+
+            <!-- Main heading -->
+            <h3 class="mb-4">About</h3>
+                
+                  <p>Fábio's passion for the barber trade has been practically forever. This taste 
+				  together with the admiration he always had for his grandfather, António Moreira, 
+				  culminated in the creation of a unique salon, marked by the relaxed atmosphere 
+				  and the concern to please the client as much as possible.</p>
+				  <p>Fábio Moreira is a graduate from IEDCB: Institute for the Study and Development 
+				  of Beauty Care in Lisbon.</p>
+            <!-- Main heading -->           
+            
+          </div>
+          <!--Grid column-->
+		  
+		  <!--Grid column-->
+          <div class="col-lg-4 ml-auto">
+
+            <!-- Main heading -->
+            <h3 class="mb-4">Contact</h3>
+                
+                  <p style="font-size:140%">phone: +351 919 279 160</p>
+				  <p>Rua da Bica de Duarte Belo 12</p>
+				  <p>1200-056 Lisboa</p>
+                  <br> 
+			<div class="col-lg-12 text-center">               
+                <p style="font-style: italic; color: rgba(255,255,255,.5); font-size: 0.9rem;">Contact features are disabled in this portfolio project.</p>       
+              </div>
+            <!-- Main heading -->           
+            
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+    <hr class="my-4">
+
+    <!-- Social icons 
+    <div class="pb-4">
+      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+    </div>
+    Social icons -->
+	
+		<!--Grid row-->
+        <div>
+			<h3 class="text-center mb-5">Where we are</h3>
+          <!--Grid column-->
+          
+			<!--Google map-->
+			<div id="map-container" class="mb-5 z-depth-1-half map-container" style="height: 500px">
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.350530237871!2d-9.148357884329167!3d38.70976046558708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1935a3064fa0f5%3A0x2608266818993ac0!2sMoreira%20barber!5e0!3m2!1spt-PT!2spt!4v1579738085308!5m2!1spt-PT!2spt" frameborder="0"
+				style="border:0" allowfullscreen></iframe>
+			</div>
+		  
+		  
+		 </div> 
+	
+	
+	</div>
+    <!--Copyright-->
+	
+	<div class="footer-copyright row py-5  d-flex justify-content-center">
+		<p class="px-2">© 2020 Copyright:
+			<a href="https://mdbootstrap.com/education/bootstrap/" target="_blank" rel="noopener"> MDBootstrap.com </a></p>
+		<p class="px-2">Front-end Development: 
+			<a href="https://carlosraposo.eu/" target="_blank" rel="noopener">Carlos Raposo</a></p>
+		<p class="px-2" style="width: 100%; text-align: center; margin-top: 10px; font-size: 0.85rem; color: rgba(255,255,255,.5);">
+			<em>This website is maintained as part of Carlos Raposo's web development portfolio and is no longer active for the original client.</em>
+		</p>
+	</div>
+	<!--/.Copyright-->
+	
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
